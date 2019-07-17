@@ -94,7 +94,6 @@ function linkedListGenerator() {
     } else if (number === 0) {
       insertedNode.next = head;
       head = insertedNode;
-      return head;
     } else {
       insertedNode.next = currentNode;
       previousNode.next = insertedNode;
